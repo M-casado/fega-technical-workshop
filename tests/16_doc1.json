@@ -1,0 +1,12 @@
+{
+    "schema": {
+        "$ref": "https://raw.githubusercontent.com/M-casado/fega-metadata-schema/main/schemas/json-ld.org/FEGA.jsonld-schema.json"
+    },
+    "data": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Jane Doe",
+        "@id": "http://mydomain.org/JaneDoe",
+        "jobTitle": "Professor"
+    }
+}

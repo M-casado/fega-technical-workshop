@@ -1,0 +1,27 @@
+{
+    "schema": {
+      "$ref": "https://raw.githubusercontent.com/M-casado/fega-metadata-schema/main/schemas/FEGA.cohort.json"
+    },
+    "data": {
+      "@context": "https://raw.githubusercontent.com/M-casado/fega-metadata-schema/main/schemas/FEGA.cohort.json",
+      "name": "Mini cohort",
+      "@type": "cohort",
+      "id": "ega:EGAC00000000001",
+      "sameAs": [
+        {
+          "@id": "ega:EGAC00000000002",
+          "@type": "cohort"
+        },
+        {
+          "@id": "ega:EGAC00000000003",
+          "@type": "cohort"
+        }
+      ],
+      "wasUsedBy": [
+        {
+          "@id": "https://github.com/M-casado/fega-technical-workshop",
+          "@type": "schema:SoftwareSourceCode"
+        }
+      ]
+    }
+  }

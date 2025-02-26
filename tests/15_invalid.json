@@ -1,0 +1,9 @@
+{
+    "schema": {
+        "$ref": "https://raw.githubusercontent.com/M-casado/fega-metadata-schema/main/schemas/FEGA.biomaterial.json#/properties/phenotypicSex"
+    },
+    "data": {
+        "termId": "EFO:0007832",
+        "termLabel": "male"
+    }
+}
